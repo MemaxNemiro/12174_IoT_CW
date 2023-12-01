@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="parking-img-class">
+        <div class="parking-bg">
+            <img class="parking-bg-img" src="img/parking.png" alt="parking image">
+        </div>
+        <div class="cars">
+            <img class="car-item" id="car1" src="img/car1.png" alt="car1">
+            <img class="car-item" id="car2" src="img/car2.png" alt="car2">
+            <img class="car-item" id="car3" src="img/car3.png" alt="car3">
+            <img class="car-item" id="car4" src="img/car4.png" alt="car4">
+        </div>
+        <div class="parking-bottom">
+            <button onclick="press()" class="barrier-btn" id="barrier-btn">Open Barrier</button>
+            <p class = "title">Auto Parking System</p>  
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
+    </script>
+
+    <script type="text/javascript" src="script.js"></script>
+    
+</body>
+</html>
